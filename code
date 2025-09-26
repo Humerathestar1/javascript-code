@@ -1,0 +1,8 @@
+let obj ={
+    myname : "humaira khan",
+    age : 19,
+    city : "bhopal",
+};
+for(let key in obj){
+    console.log(`key is ${key}, and the value is ${obj[key]},`)
+}
